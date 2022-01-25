@@ -1,0 +1,27 @@
+<template>
+  <router-link to="/"><img src="../assets/Back.png" /></router-link>
+</template>
+
+<script>
+export default {
+  name: "Button",
+  props: {},
+};
+</script>
+
+<style back>
+.container_button {
+  background: #000000;
+  box-shadow: -9px 10px 54px -7px rgba(0, 0, 0, 0.23);
+  border-radius: 14px;
+  padding: 14px 35px;
+  top: 97px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 94.9%;
+  text-align: center;
+  color: #ffffff;
+}
+</style>

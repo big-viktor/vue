@@ -1,12 +1,19 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/glav">glav</router-link>
+    <router-link to="/Conect">Conect</router-link>
+    <router-link to="/Contacts">Contacts</router-link>
+    <router-link to="/GlavCard">GlavCard</router-link>
+    <router-link to="/Your">Your</router-link>
+    <router-link to="/All">All</router-link>
+    <router-link to="/Item">Item</router-link>
+    <router-link to="/Buy">Buy</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,17 +21,14 @@
   text-align: center;
   color: #2c3e50;
 }
-
 #nav {
-  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
 #nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
